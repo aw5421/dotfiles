@@ -17,6 +17,7 @@ Plug 'tpope/vim-surround'
 "interface
 Plug 'arcticicestudio/nord-vim'
 Plug 'vim-airline/vim-airline'
+Plug 'Yggdroot/indentLine'
 "language
 
 call plug#end()

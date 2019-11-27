@@ -1,15 +1,43 @@
-set number
+" styling
+colorscheme nord
 set mouse=a
-set smarttab
-set cindent
-set tabstop=4
-set shiftwidth=4
-"Global clipboard
+set encoding=utf8
+" Give us a realtime preview of substitution before we send it
+set inccommand=nosplit
+set list
+set lcs=eol:¬,extends:❯,precedes:❮,tab:>-
+set number
+set relativenumber
+set ruler
+set cursorline
+set smartindent
+set autoindent
+set wrap
+set linebreak
+set wildmenu
+set lazyredraw
+set showmatch
+set noshowmode " lightline shows the status not vim
+set showtabline=2
+set shortmess+=c
+set updatetime=300
+set signcolumn=yes
+" global clipboard
 set clipboard=unnamed
+
+" searching
+set incsearch
+set hlsearch
+set smartcase
+set ignorecase
 
 " always uses spaces instead of tab characters
 set expandtab
 set hidden
+set tabstop=4
+set smarttab
+set cindent
+set shiftwidth=4
 
 " Some servers have issues with backup files, see #649
 set nobackup
