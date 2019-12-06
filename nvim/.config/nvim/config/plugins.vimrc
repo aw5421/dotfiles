@@ -4,7 +4,7 @@ let g:indentLine_char = '┊'
 let g:indentLine_showFirstIndentLevel = 1
 
 " vim-airline
-let g:airline_theme='darkscene'
+let g:airline_theme='nord'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#bufferline#enabled = 1
