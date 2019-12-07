@@ -12,7 +12,7 @@ set ruler
 set cursorline
 set smartindent
 set autoindent
-set wrap
+set nowrap
 set linebreak
 set wildmenu
 set lazyredraw
@@ -35,7 +35,7 @@ set ignorecase
 set expandtab
 set hidden
 set tabstop=4
-set smarttab
+"set smarttab
 set cindent
 set shiftwidth=4
 
